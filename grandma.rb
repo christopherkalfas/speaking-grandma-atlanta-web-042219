@@ -4,6 +4,6 @@ def speak_to_grandma(arguement)
     return "NO, NOT SINCE 1938!"
   elsif arguement = arguement.downcase
     return "HUH?! SPEAK UP, SONNY!"
-  else arguement = "I LOVE YOU GRANDMA!"
-    return 
+  else arguement == "I LOVE YOU GRANDMA!"
+    return "I LOVE YOU TOO PUMPKIN!"
 end 
